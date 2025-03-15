@@ -64,7 +64,9 @@ Este proyecto incluye pruebas para la autenticación de formularios, simulando e
 En este laboratorio, se aplica BDD para definir y probar el comportamiento de la aplicación desde la perspectiva del usuario. Esto se logra mediante:
 
 a. Archivos .feature: Se utilizan archivos .feature para describir los escenarios de prueba en lenguaje natural (Gherkin). Estos archivos sirven como documentación ejecutable y facilitan la comunicación entre desarrolladores, testers y stakeholders.
+
 b. Pasos (Steps Definitions): Se implementan clases Step Definitions que conectan los pasos definidos en los archivos .feature con el código de prueba real. Esto permite que las pruebas sean legibles y fáciles de mantener.
+
 c. Cucumber: Se utiliza Cucumber como framework para ejecutar las pruebas BDD y generar reportes de los resultados. Esto proporciona una visión clara del estado de las pruebas y facilita la identificación de problemas.
 
 ## Pruebas
