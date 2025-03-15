@@ -87,7 +87,7 @@ Las pruebas garantizan la calidad del código, detectan errores tempranamente y 
 * [IntelliJ](https://www.jetbrains.com/es-es/idea/) - Entorno de desarrollo integrado.
 * [Selenium](https://www.selenium.dev/) - Automatización de navegadores web.
 * [Cucumber](https://cucumber.io/) - Pruebas de comportamiento.
-+ [Mockito](https://site.mockito.org/) - Framework de mocking para pruebas unitarias.
+* [Mockito](https://site.mockito.org/) - Framework de mocking para pruebas unitarias.
 
 **Autor**
 - Laura Valentina Rodríguez Ortegón **Ing de Sistemas**
