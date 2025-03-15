@@ -41,6 +41,9 @@ Revisar las rutas de la máquina
 
 `  java -version `
 
+O con Codespaces se genera todo el entorno automáticamente.
+
+## Compilación del proyecto
 
 Para compilar el proyecto:
 
@@ -50,12 +53,31 @@ Para compilar el proyecto:
 
 ´ mvn compile ´
 
+´ mvn test ´
+
+## Autenticación de formularios
+
+Este proyecto incluye pruebas para la autenticación de formularios, simulando el proceso de inicio de sesión de un usuario. Se utilizan Selenium y Mockito para interactuar con la página de inicio de sesión y verificar el comportamiento de la aplicación en diferentes escenarios (inicio de sesión exitoso, inicio de sesión fallido, campos vacíos, etc.).
+
+## Pruebas
+
+Las pruebas en este proyecto se dividen en:
+
+1. Pruebas unitarias (JUnit y Mockito): verifican la lógica de negocio de la aplicación, simulando el comportamiento de las dependencias externas.
+2. Pruebas de integración (Selenium): verifican la interacción entre la aplicación y la interfaz de usuario, simulando el comportamiento de un usuario real.
+3. Pruebas de comportamiento (Cucumber): describen el comportamiento de la aplicación en lenguaje natural, facilitando la comunicación entre desarrolladores y stakeholders.
+
+Las pruebas garantizan la calidad del código, detectan errores tempranamente y facilitan la refactorización y el mantenimiento del proyecto.
+
 ## Construido con
 
 * [Maven](https://maven.apache.org/) - Gestión de dependencias.
 * [Java](https://www.java.com/es/) - Versionamiento en Java.
 * [GitHub](https://docs.github.com/es) - Sistema de control de versiones distribuido.
 * [IntelliJ](https://www.jetbrains.com/es-es/idea/) - Entorno de desarrollo integrado.
+* [Selenium](https://www.selenium.dev/) - Automatización de navegadores web.
+* [Cucumber](https://cucumber.io/) - Pruebas de comportamiento.
++ [Mockito](https://site.mockito.org/) - Framework de mocking para pruebas unitarias.
 
 **Autor**
 - Laura Valentina Rodríguez Ortegón **Ing de Sistemas**
